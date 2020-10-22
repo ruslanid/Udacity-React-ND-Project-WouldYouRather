@@ -8,6 +8,6 @@ ReactJS, Redux, SASS, React Router, Redux Thunk, Redux Logger, Reselect
 
 ### Instructions:
 
-Run `npm install` to install needed dependencies
-Run `npm start` to start the server
+Run `npm install` to install needed dependencies <br />
+Run `npm start` to start the server <br />
 Open `localhost:3000` in your browser to user the app
