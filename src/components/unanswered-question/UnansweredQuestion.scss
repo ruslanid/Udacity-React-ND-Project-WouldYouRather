@@ -1,0 +1,69 @@
+.UnansweredQuestion {
+  width: 550px;
+  border-radius: 2%;
+  border: 1px solid gray;
+  padding: 10px 20px 15px;
+  margin: 60px auto;
+  text-align: left;
+
+  .header {
+    p {
+      color: gray;
+      font-weight: 500;
+    }
+  }
+
+  .content {
+    display: flex;
+
+    .user-avatar {
+      margin-right: 30px;
+
+      img {
+        border: 1px solid gray;
+        border-radius: 100%;
+        height: 150px;
+      }
+    }
+
+    .questionForm {
+      width: 300px;
+
+      p {
+        color: gray;
+        font-size: 19px;
+        font-weight: 600;
+        margin: 10px 0;
+      }
+
+      img {
+        height: 20px;
+      }
+
+      input {
+        margin-bottom: 10px;
+      }
+
+      .loader {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button {
+        color: white;
+        background-color: black;
+        border: 1px solid #a94442;
+        width: 100%;
+        height: 40px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        opacity: 0.9;
+        margin-top: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.AddQuestionPage {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 2%;
+  border: 1px solid gray;
+  padding: 20px 35px;
+  margin: 50px auto;
+  color: gray;
+
+  .add-question-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    input {
+      width: 100%;
+      border-radius: 5px;
+      border: 1px solid gray;
+      background-color: white;
+      font-size: 15px;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-top: 0px;
+    }
+
+    .loader {
+      height: 40px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button {
+      color: white;
+      background-color: black;
+      border: 1px solid #a94442;
+      width: 50%;
+      height: 40px;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      opacity: 0.9;
+      margin-bottom: 5px;
+    }
+  }
+
+  .error {
+    color: red;
+  }
+}

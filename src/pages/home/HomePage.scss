@@ -1,0 +1,25 @@
+.HomePage {
+  .tabs {
+    display: flex;
+    width: 550px;
+    margin: 0 auto;
+    color: gray;
+
+    .tab {
+      width: 275px;
+      cursor: pointer;
+      border: .5px solid gray;
+      padding: 10px;
+    }
+
+    .active-tab {
+      background-color: gray;
+      color: white;
+    }
+  }
+
+  .empty-list {
+    color: gray;
+    margin-top: 50px;
+  }
+}

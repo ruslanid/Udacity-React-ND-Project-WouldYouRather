@@ -1,0 +1,43 @@
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 2%;
+  border: 1px solid gray;
+  padding: 20px 35px;
+  margin: 60px auto;
+
+  img {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  h4 {
+    color: gray;
+  }
+
+  select {
+    width: 100%;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  button {
+    color: white;
+    background-color: black;;
+    border: 1px solid #a94442;
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.9;
+    margin-bottom: 5px;
+  }
+}
+
