@@ -81,9 +81,6 @@ const saveQuestionAnswerFailure = (error) => ({
 
 export const saveQuestionAnswer = (authedUserId, questionId, answer) => {
   return (dispatch) => {
-    console.log(authedUserId);
-    console.log(questionId);
-    console.log(answer);
     dispatch(saveQuestionAnswerStart());
 
     _saveQuestionAnswer(authedUserId, questionId, answer)

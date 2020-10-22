@@ -7,10 +7,7 @@ import { selectAllUsers } from "../../redux/users/users.selectors";
 import "./LoginPage.scss";
 import Logo from "../../assets/images/logo.png";
 
-const LoginPage = ({ dispatch, users, location, history, match }) => {
-  console.log("location", location);
-  console.log("match", match);
-  console.log("history", history);
+const LoginPage = ({ dispatch, users, location, history }) => {
   const [authedUserId, setAuthedUserId] = useState();
 
   const handleSubmit = (event) => {

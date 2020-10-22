@@ -1,5 +1,4 @@
 export const saveUserAnswer = (users, { authedUserId, questionId, answer }) => {
-  console.log("users", users);
   return {
     ...users,
     [authedUserId]: {

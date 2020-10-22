@@ -8,7 +8,6 @@ import AnsweredQuestion from "../../components/answered-question/AnsweredQuestio
 import UnansweredQuestion from "../../components/unanswered-question/UnansweredQuestion";
 
 const QuestionPage = ({ question, authedUser, match }) => {
-  console.log(match);
   const renderProperComponent = () => {
     if (question) {
       return authedUser.answers[question.id] ? (

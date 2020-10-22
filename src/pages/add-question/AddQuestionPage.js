@@ -36,8 +36,6 @@ const AddQuestionPage = ({ authedUser, dispatch, history, isSaving }) => {
     setQuestionDetails({ ...questionDetails, [name]: value });
   };
 
-  console.log("error", error);
-
   return (
     <div className="AddQuestionPage">
       <h3>Create New Question</h3>
